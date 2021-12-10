@@ -42,7 +42,7 @@ do
             local  timenow = time()
             if message and (message > ver) then
                 if timenow - spamt >= timeneedtospam then
-                    print("|cff1784d1".."Ackis Recipe List".."|r".." (".."|cffff0000"..ver.."|r"..") устарел. Вы можете загрузить последнюю версию (".."|cff00ff00"..message.."|r"..") из ".."|cffffcc00".."https://github.com/fxpw/Ackis-Recipe-List-for-sirus".."|r")
+                    print("|cff1784d1".."Ackis Recipe List".."|r".." (".."|cffff0000"..ver.."|r"..") устарел. Вы можете загрузить последнюю версию (".."|cff00ff00"..message.."|r"..") из ".."|cffffcc00".."https://github.com/fxpw/AckisRecipeList-for-sirus".."|r")
                     -- spamt = time()
                     spamt = time()
                 end

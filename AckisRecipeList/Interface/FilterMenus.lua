@@ -78,7 +78,7 @@ do
 		local xPos = 2 + ((col - 1) * 175)
 		local yPos = -3 - ((row - 1) * 17)
 
-		local check = CreateFrame("CheckButton", nil, parent, "UICheckButtonTemplate")
+		local check = CreateFrame("CheckButton", "arlcheck1", parent, "UICheckButtonTemplate")
 		check:SetPoint("TOPLEFT", parent, "TOPLEFT", xPos, yPos)
 		check:SetHeight(24)
 		check:SetWidth(24)

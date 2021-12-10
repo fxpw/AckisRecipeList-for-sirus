@@ -1741,7 +1741,7 @@ do
 	scrollArea:SetPoint("TOPLEFT", copy_frame, "TOPLEFT", 8, -30)
 	scrollArea:SetPoint("BOTTOMRIGHT", copy_frame, "BOTTOMRIGHT", -30, 8)
 
-	local edit_box = CreateFrame("EditBox", nil, copy_frame)
+	local edit_box = CreateFrame("EditBox", "SearchIdontNow", copy_frame)
 	edit_box:SetMultiLine(true)
 	edit_box:SetMaxLetters(0)
 	edit_box:EnableMouse(true)

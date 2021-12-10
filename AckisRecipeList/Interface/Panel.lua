@@ -579,7 +579,7 @@ function private.InitializeFrame()
 	-------------------------------------------------------------------------------
 	-- Search EditBox
 	-------------------------------------------------------------------------------
-	local SearchBox = CreateFrame("EditBox", nil, MainPanel, "InputBoxTemplate")
+	local SearchBox = CreateFrame("EditBox", "SearchMainFrame", MainPanel, "InputBoxTemplate")
 
 	SearchBox:EnableMouse(true)
 	SearchBox:SetAutoFocus(false)

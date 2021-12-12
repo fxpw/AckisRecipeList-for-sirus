@@ -268,6 +268,7 @@ lib:SetBaseTranslations {
 	["Grand Crusader Dathrohan"] = "Grand Crusader Dathrohan",
 	["Grand Magus Telestra"] = "Grand Magus Telestra",
 	["Grandmaster Vorpil"] = "Grandmaster Vorpil",
+	["Gore'lats"] = "Gore'lats",	
 	Grandmother = "Grandmother",
 	["Grand Vizier Ertan"] = "Grand Vizier Ertan",
 	["Grand Warlock Alythess"] = "Grand Warlock Alythess",
@@ -4557,16 +4558,6 @@ elseif GAME_LOCALE == "esMX" then
 }
 elseif GAME_LOCALE == "ruRU" then
 	lib:SetCurrentTranslations {
-	--gorelats
-	["Gore'lats"] = "Горе'лац",
-	-- bronze sanct
-	Imporus = "Импорус",
-	Elonus = "Элонус",
-	Murozond  = "Муразонд",
-	--- norigonr
-	Norigonr  = "Норигорн",
-
-
 	Acidmaw = "Кислотная Утроба",
 	Aeonus = "Эонус",
 	["Aerial Command Unit"] = "Воздушное судно",
@@ -4608,7 +4599,7 @@ elseif GAME_LOCALE == "ruRU" then
 	-- ["Ascendant Lord Obsidius"] = "",
 	-- ["Asim al Akir"] = "",
 	["Assault Bot"] = "Штурмовой робот",
-	-- ["Assembly of Iron"] = "",
+	["Assembly of Iron"] = "Железное собрание",
 	["Atal'alarion"] = "Атал'аларион",
 	["Attumen the Huntsman"] = "Ловчий Аттумен",
 	Auriaya = "Ауриайя",
@@ -4818,6 +4809,7 @@ elseif GAME_LOCALE == "ruRU" then
 	["Grand Crusader Dathrohan"] = "Верховный рыцарь Датрохан",
 	["Grand Magus Telestra"] = "Великая ведунья Телестра",
 	["Grandmaster Vorpil"] = "Великий мастер Ворпил",
+	["Gore'lats"] = "Горе'лац",	
 	Grandmother = "Бабушка",
 	-- ["Grand Vizier Ertan"] = "",
 	["Grand Warlock Alythess"] = "Главная чернокнижница Алитесса",
@@ -5001,6 +4993,9 @@ elseif GAME_LOCALE == "ruRU" then
 	Magmus = "Магмус",
 	Magra = "Магра",
 	Magtheridon = "Магтеридон",
+	Imporus = "Импорус",
+	Elonus = "Элонус Исказитель времени",
+	Murozond = "Мурозонд",	
 	["Maiden of Grief"] = "Дева Скорби",
 	["Maiden of Virtue"] = "Благочестивая дева",
 	["Majordomo Executus"] = "Мажордом Экзекутус",

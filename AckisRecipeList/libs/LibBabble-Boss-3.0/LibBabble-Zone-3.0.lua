@@ -27,7 +27,6 @@ lib:SetBaseTranslations {
 	["Amani Pass"] = "Amani Pass",
 	["Arathi Basin"] = "Arathi Basin",
 	["Arathi Highlands"] = "Arathi Highlands",
-	
 	Armory = "Armory",
 	Ashenvale = "Ashenvale",
 	Auberdine = "Auberdine",
@@ -1697,7 +1696,6 @@ elseif GAME_LOCALE == "esMX" then
 elseif GAME_LOCALE == "ruRU" then
 	lib:SetCurrentTranslations {
 	-- ["Abyssal Depths"] = "",
-	TolGarod = "Тол'Гарод",
 	["Ahn'kahet: The Old Kingdom"] = "Ан'кахет: Старое Королевство",
 	["Ahn'Qiraj"] = "Ан'Кираж",
 	-- ["Ahn'Qiraj: The Fallen Kingdom"] = "",
@@ -1926,10 +1924,8 @@ elseif GAME_LOCALE == "ruRU" then
 	["The Prison of Yogg-Saron"] = "Темница Йогг-Сарона",
 	["Theramore Isle"] = "Остров Терамор",
 	["The Ring of Valor"] = "Круг Доблести",
-	--bs
-	["The Bronze Sanctum"] = "Бронзовое святилище",
-	--bs
 	["The Ruby Sanctum"] = "Рубиновое святилище",
+	["The Bronze Sanctuary"] = "Бронзовое cвятилище",	
 	["The Scarlet Enclave"] = "Анклав Алого ордена",
 	["The Shattered Halls"] = "Разрушенные залы",
 	["The Slave Pens"] = "Узилище",

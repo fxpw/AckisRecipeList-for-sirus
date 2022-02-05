@@ -12,7 +12,7 @@
 #@debug@
 # ## Title: Ackis Recipe List - Development Version
 #@end-debug@
-## X-Curse-Packaged-Version: v2.01
+## X-Curse-Packaged-Version: v2.02
 ## X-Curse-Project-Name: Ackis Recipe List
 ## X-Curse-Project-ID: arl
 ## X-Curse-Repository-ID: wow/arl/mainline

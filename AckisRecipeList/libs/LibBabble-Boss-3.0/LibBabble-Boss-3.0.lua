@@ -5098,6 +5098,10 @@ elseif GAME_LOCALE == "ruRU" then
 	["Postmaster Malown"] = "Почтальон Мэлоун",
 	["Priestess Delrissa"] = "Жрица Делрисса",
 	["Prince Keleseth"] = "Принц Келесет",
+
+	Galindra = "Галиндра",
+	Zelfira = "Зельфира",
+	-------------------------------------------
 	["Prince Malchezaar"] = "Принц Малчезар",
 	["Prince Skaldrenox"] = "Принц Скальдренокс",
 	["Princess Huhuran"] = "Принцесса Хухуран",

@@ -17,6 +17,10 @@ if not lib then return end
 local GAME_LOCALE = GetLocale()
 
 lib:SetBaseTranslations {
+	---ttg
+	Argaloth = "Гогонаш",
+	HeraldVolazj = "Ктракс",
+	Shadhar = "Пожиратель магии",
 	Acidmaw = "Acidmaw",
 	Aeonus = "Aeonus",
 	["Aerial Command Unit"] = "Aerial Command Unit",
@@ -4561,6 +4565,9 @@ elseif GAME_LOCALE == "esMX" then
 }
 elseif GAME_LOCALE == "ruRU" then
 	lib:SetCurrentTranslations {
+	Argaloth = "Гогонаш",
+	HeraldVolazj = "Ктракс",
+	Shadhar = "Пожиратель магии",
 	Acidmaw = "Кислотная Утроба",
 	Aeonus = "Эонус",
 	["Aerial Command Unit"] = "Воздушное судно",

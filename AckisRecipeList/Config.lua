@@ -141,7 +141,7 @@ local function fullOptions()
 									   return true
 								   end,
 						},
-						spacer1 = {
+						spacer2 = {
 							order	= 45,
 							type	= "description",
 							name	= "\n",

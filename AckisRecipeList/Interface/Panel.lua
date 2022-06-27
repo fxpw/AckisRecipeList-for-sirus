@@ -480,7 +480,10 @@ function private.InitializeFrame()
 
 	function ProfCycle:ChangeTexture(texture)
 		local normal, pushed, disabled = self._normal, self._pushed, self._disabled
-
+		local localizedClass, englishClass = UnitClass("player")
+		if englishClass == "DEATHKNIGHT" and texture == nil then
+			texture = "runeforge"
+		end
 		normal:SetTexture([[Interface\Addons\AckisRecipeList\img\]] .. texture .. [[_up]])
 		normal:SetTexCoord(0, 1, 0, 1)
 		normal:SetAllPoints(self)

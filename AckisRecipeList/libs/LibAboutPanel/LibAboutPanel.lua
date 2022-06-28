@@ -15,18 +15,18 @@ Author: Tekkub, Ackis
 local lib, oldminor = LibStub:NewLibrary("LibAboutPanel", 2)
 if not lib then return end
 
+local GAME_LOCALE = GetLocale()
+
+local L = {}
+
 function lib.new(parent, addonname)
 	local frame = CreateFrame("Frame", nil, UIParent)
-	frame.name, frame.parent, frame.addonname = not parent and gsub(addonname," ","") or "About", parent, gsub(addonname," ","") -- Remove spaces from addonname because GetMetadata doesn't like that
+	frame.name, frame.parent, frame.addonname = not parent and gsub(addonname," ","") or L["About"], parent, gsub(addonname," ","") -- Remove spaces from addonname because GetMetadata doesn't like that
 	frame:Hide()
 	frame:SetScript("OnShow", lib.OnShow)
 	InterfaceOptions_AddCategory(frame)
 	return frame
 end
-
-local GAME_LOCALE = GetLocale()
-
-local L = {}
 
 -- frFR
 if GAME_LOCALE == "frFR" then

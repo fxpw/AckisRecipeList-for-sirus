@@ -787,6 +787,10 @@ function private.InitializeListFrame()
 			-- Initialize the expand button and entries for the current tab.
 			-------------------------------------------------------------------------------
 			local current_tab = MainPanel.tabs[addon.db.profile.current_tab]
+			local localizedClass, englishClass = UnitClass("player")
+			if englishClass == "DEATHKNIGHT" and MainPanel.profession == nil then
+				MainPanel.profession = 10
+			end
 			local expanded_button = current_tab["expand_button_"..MainPanel.profession]
 
 			if expanded_button then

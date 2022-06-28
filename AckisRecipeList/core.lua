@@ -119,7 +119,6 @@ local MissingLibraries
 do
 	local REQUIRED_LIBS = {
 		"AceLocale-3.0",
-		"LibBabble-Boss-3.0",
 		"LibBabble-Faction-3.0",
 		"LibBabble-Zone-3.0",
 	}

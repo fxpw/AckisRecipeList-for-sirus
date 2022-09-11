@@ -624,7 +624,6 @@ L["Include Excluded"] = "Ausgeschlossene Einschl."
 L["Include Filtered"] = "Gefilterte Einschließen"
 L["Indormi"] = true
 L["Indu'le Fisherman"] = "Fischer von Indu'le"
-L["Inessera"] = true
 L["Innkeeper Biribi"] = "Gastwirtin Biribi"
 L["Innkeeper Fizzgrimble"] = "Gastwirt Zischgrimbel"
 L["Innkeeper Grilka"] = "Gastwirtin Grilka"

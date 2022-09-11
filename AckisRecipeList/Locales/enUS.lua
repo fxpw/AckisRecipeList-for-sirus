@@ -698,7 +698,6 @@ L["Indormi"] = true
 L["Indu'le Fisherman"] = true
 L["Indu'le Mystic"] = true
 L["Indu'le Warrior"] = true
-L["Inessera"] = true
 L["Innkeeper Biribi"] = true
 L["Innkeeper Fizzgrimble"] = true
 L["Innkeeper Grilka"] = true

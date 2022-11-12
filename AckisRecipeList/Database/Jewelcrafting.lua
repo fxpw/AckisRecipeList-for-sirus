@@ -3374,5 +3374,30 @@ function addon:InitJewelcrafting()
 	self:AddRecipeFlags(317550, F.ALLIANCE, F.HORDE, F.VENDOR, F.IBOE, F.RBOP)
 	self:AddRecipeVendor(317550, 500126)
 
+	-- Эскиз: Наследный камень императора  -- 319581
+	AddRecipe(319581, 450, 97830, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319581, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319581, A.CUSTOM, 27)
+	
+	-- Эскиз: Ограненный камень хиджальских гор  -- 319582
+	AddRecipe(319582, 450, 97831, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319582, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319582, A.CUSTOM, 27)
+	
+	-- Эскиз: Усиливающее слух кольцо преступника  -- 319583
+	AddRecipe(319583, 450, 97832, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319583, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319583, A.CUSTOM, 27)
+	
+	-- Эскиз: Резонирующее кольцо гнева  -- 319584
+	AddRecipe(319584, 450, 97833, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319584, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319584, A.CUSTOM, 27)
+	
+	-- Эскиз: Люминисцирующая яшма в оправе  -- 319585
+	AddRecipe(319585, 450, 97834, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319585, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319585, A.CUSTOM, 27)
+	
 	return num_recipes
 end

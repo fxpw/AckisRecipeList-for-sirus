@@ -1577,12 +1577,12 @@ function addon:InitTailoring()
 	-- Mantle of Nimble Thought -- 41206
 	AddRecipe(41206, 375, 32587, Q.EPIC, V.TBC, 375, 385, 390, 395)
 	self:AddRecipeFlags(41206, F.ALLIANCE, F.HORDE, F.RAID, F.IBOP, F.RBOE, F.HEALER, F.CASTER, F.CLOTH)
-	self:AddRecipeAcquire(41206, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41206, A.CUSTOM, 34)
 
 	-- Swiftheal Wraps -- 41207
 	AddRecipe(41207, 375, 32584, Q.EPIC, V.TBC, 375, 385, 390, 395)
 	self:AddRecipeFlags(41207, F.ALLIANCE, F.HORDE, F.RAID, F.IBOE, F.RBOP, F.HEALER, F.CASTER, F.CLOTH)
-	self:AddRecipeAcquire(41207, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41207, A.CUSTOM, 34)
 
 	-- Swiftheal Mantle -- 41208
 	AddRecipe(41208, 375, 32585, Q.EPIC, V.TBC, 375, 385, 390, 395)
@@ -2194,6 +2194,26 @@ function addon:InitTailoring()
 	AddRecipe(315372, 435, 315372, Q.RARE, V.TBC, 435, 440, 445, 450) 
 	self:AddRecipeFlags(315372, F.ALLIANCE, F.HORDE, F.VENDOR, F.IBOE, F.RBOP) 
 	self:AddRecipeVendor(315372, 82190)
+	
+	-- Выкройка: Летний пояс мага-новичка  -- 319601
+	AddRecipe(319601, 450, 97850, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319601, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319601, A.CUSTOM, 27)
+	
+	-- Выкройка: Старообрядческий пояс из шелка  -- 319602
+	AddRecipe(319602, 450, 97851, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319602, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319602, A.CUSTOM, 27)
+	
+	-- Выкройка: Покров силы магии из ветроткани  -- 319603
+	AddRecipe(319603, 450, 97852, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319603, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319603, A.CUSTOM, 27)
+	
+	-- Выкройка: Шаль силы духа из редкого шелка  -- 319604
+	AddRecipe(319604, 450, 97853, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319604, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319604, A.CUSTOM, 27)
 	
 	return num_recipes
 end

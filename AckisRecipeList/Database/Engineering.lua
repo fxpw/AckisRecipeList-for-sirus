@@ -1588,5 +1588,45 @@ function addon:InitEngineering()
 	self:AddRecipeFlags(315378, F.ALLIANCE, F.HORDE, F.VENDOR, F.IBOE, F.RBOP) 
 	self:AddRecipeVendor(315378, 82190)
 	
+	-- Схема: Активная наручная защита ХМ-52 "Титан"  -- 319589
+	AddRecipe(319589, 450, 97838, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319589, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319589, A.CUSTOM, 27)
+	
+	-- Схема: Наручные подавители боли ХМ-51 "Узурпатор"  -- 319590
+	AddRecipe(319590, 450, 97839, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319590, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319590, A.CUSTOM, 27)
+	
+	-- Схема: Наручный источник сил ХМ-75 "Очищение"  -- 319591
+	AddRecipe(319591, 450, 97840, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319591, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319591, A.CUSTOM, 27)
+	
+	-- Схема: Наручный сканер слабостей ХТ-27 "Трепет"  -- 319592
+	AddRecipe(319592, 450, 97841, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319592, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319592, A.CUSTOM, 27)
+	
+	-- Схема: Наручная маскировка ХТ-92 "Леший"  -- 319593
+	AddRecipe(319593, 450, 97842, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319593, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319593, A.CUSTOM, 27)
+	
+	-- Схема: Наручный целеуказатель ХЕ-41 "Раптор"  -- 319594
+	AddRecipe(319594, 450, 97843, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319594, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319594, A.CUSTOM, 27)
+	
+	-- Схема: Наручный инъектор ХЕ-39 "Водяной"  -- 319595
+	AddRecipe(319595, 450, 97844, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319595, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319595, A.CUSTOM, 27)
+	
+	-- Схема: Наручная электрозащита ХЕ-89 "Буря"  -- 319596
+	AddRecipe(319596, 450, 97845, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319596, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319596, A.CUSTOM, 27)
+	
 	return num_recipes
 end

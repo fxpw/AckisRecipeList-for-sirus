@@ -1797,12 +1797,12 @@ function addon:InitLeatherworking()
 	-- Shoulderpads of Renewed Life -- 41157
 	AddRecipe(41157, 375, 32583, Q.EPIC, V.TBC, 375, 385, 395, 405)
 	self:AddRecipeFlags(41157, F.ALLIANCE, F.HORDE, F.RAID, F.IBOP, F.RBOE, F.HEALER, F.CASTER, F.LEATHER)
-	self:AddRecipeAcquire(41157, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41157, A.CUSTOM, 34)
 
 	-- Swiftstrike Bracers -- 41158
 	AddRecipe(41158, 375, 32580, Q.EPIC, V.TBC, 375, 385, 395, 405)
 	self:AddRecipeFlags(41158, F.ALLIANCE, F.HORDE, F.RAID, F.IBOE, F.RBOE, F.DPS, F.LEATHER)
-	self:AddRecipeAcquire(41158, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41158, A.CUSTOM, 34)
 
 	-- Swiftstrike Shoulders -- 41160
 	AddRecipe(41160, 375, 32581, Q.EPIC, V.TBC, 375, 385, 395, 405)
@@ -1812,7 +1812,7 @@ function addon:InitLeatherworking()
 	-- Bindings of Lightning Reflexes -- 41161
 	AddRecipe(41161, 375, 32574, Q.EPIC, V.TBC, 375, 385, 395, 405)
 	self:AddRecipeFlags(41161, F.ALLIANCE, F.HORDE, F.RAID, F.IBOE, F.RBOE, F.DPS, F.MAIL)
-	self:AddRecipeAcquire(41161, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41161, A.CUSTOM, 34)
 
 	-- Shoulders of Lightning Reflexes -- 41162
 	AddRecipe(41162, 375, 32575, Q.EPIC, V.TBC, 375, 385, 395, 405)
@@ -1827,7 +1827,7 @@ function addon:InitLeatherworking()
 	-- Living Earth Shoulders -- 41164
 	AddRecipe(41164, 375, 32579, Q.EPIC, V.TBC, 375, 385, 395, 405)
 	self:AddRecipeFlags(41164, F.ALLIANCE, F.HORDE, F.RAID, F.IBOP, F.RBOE, F.HEALER, F.CASTER, F.MAIL)
-	self:AddRecipeAcquire(41164, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41164, A.CUSTOM, 34)
 
 	-- Cloak of Darkness -- 42546
 	AddRecipe(42546, 360, 33122, Q.RARE, V.TBC, 360, 370, 380, 390)
@@ -2935,6 +2935,26 @@ function addon:InitLeatherworking()
 	AddRecipe(315364, 435, 154283, Q.RARE, V.TBC, 435, 440, 445, 460)
 	self:AddRecipeFlags(315364, F.ALLIANCE, F.HORDE, F.VENDOR, F.IBOE, F.RBOP)
 	self:AddRecipeVendor(315364, 82190)
+
+	-- Выкройка: Поясное хранилище тяжелых игл  -- 319597
+	AddRecipe(319597, 450, 97845, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319597, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319597, A.CUSTOM, 27)
+	
+	-- Выкройка: Опоясок с ножами для снятия шкур  -- 319598
+	AddRecipe(319598, 450, 97845, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319598, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319598, A.CUSTOM, 27)
+	
+	-- Выкройка: Уплотненный пояс из электрохимеры  -- 319599
+	AddRecipe(319599, 450, 97845, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319599, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319599, A.CUSTOM, 27)
+	
+	-- Выкройка: Гнилостный пояс из шкур вудралаков  -- 319600
+	AddRecipe(319600, 450, 97845, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319600, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319600, A.CUSTOM, 27)
 
 	return num_recipes
 end

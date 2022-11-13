@@ -1881,7 +1881,7 @@ function addon:InitBlacksmithing()
 	-- Swiftsteel Bracers -- 41132
 	AddRecipe(41132, 375, 32568, Q.EPIC, V.TBC, 375, 385, 395, 405)
 	self:AddRecipeFlags(41132, F.ALLIANCE, F.HORDE, F.RAID, F.IBOE, F.RBOP, F.DPS, F.PLATE)
-	self:AddRecipeAcquire(41132, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41132, A.CUSTOM, 34)
 
 	-- Swiftsteel Shoulders -- 41133
 	AddRecipe(41133, 375, 32570, Q.EPIC, V.TBC, 375, 385, 395, 405)
@@ -1896,7 +1896,7 @@ function addon:InitBlacksmithing()
 	-- Dawnsteel Shoulders -- 41135
 	AddRecipe(41135, 375, 32573, Q.EPIC, V.TBC, 375, 385, 395, 405)
 	self:AddRecipeFlags(41135, F.ALLIANCE, F.HORDE, F.RAID, F.IBOP, F.RBOE, F.HEALER, F.CASTER, F.PLATE)
-	self:AddRecipeAcquire(41135, A.CUSTOM, 27, A.CUSTOM, 34)
+	self:AddRecipeAcquire(41135, A.CUSTOM, 34)
 
 	-- Ragesteel Shoulders -- 42662
 	AddRecipe(42662, 365, 33173, Q.RARE, V.TBC, 365, 375, 385, 395)
@@ -2684,5 +2684,20 @@ function addon:InitBlacksmithing()
 	self:AddRecipeFlags(315332, F.ALLIANCE, F.HORDE, F.VENDOR, F.IBOE, F.RBOP)
 	self:AddRecipeVendor(315332, 82190)
 
+	-- Чертеж: Латные сапоги кузнеца света  -- 319586
+	AddRecipe(319586, 450, 97835, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319586, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319586, A.CUSTOM, 27)
+	
+	-- Чертеж: Ботфорты кузни погибели  -- 319587
+	AddRecipe(319587, 450, 97836, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319587, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319587, A.CUSTOM, 27)
+	
+	-- Чертеж: Утраченные сапоги ремесленника  -- 319588
+	AddRecipe(319588, 450, 97837, Q.EPIC, V.TBC, 450, 455, 460, 465)
+	self:AddRecipeFlags(319588, F.ALLIANCE, F.HORDE, F.MOB_DROP, F.IBOE, F.RBOE)
+	self:AddRecipeAcquire(319588, A.CUSTOM, 27)
+	
 	return num_recipes
 end

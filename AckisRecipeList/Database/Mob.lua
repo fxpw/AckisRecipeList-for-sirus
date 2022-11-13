@@ -22,7 +22,6 @@ local MODNAME		= "Ackis Recipe List"
 local addon		= LibStub("AceAddon-3.0"):GetAddon(MODNAME)
 local L			= LibStub("AceLocale-3.0"):GetLocale(MODNAME)
 local BZ		= LibStub("LibBabble-Zone-3.0"):GetLookupTable()
-local BB		= LibStub("LibBabble-Boss-3.0"):GetLookupTable()
 
 function addon:InitMob(DB)
 	local function AddMob(mob_id, mob_name, zone, coord_x, coord_y, faction)
@@ -154,7 +153,7 @@ function addon:InitMob(DB)
 	AddMob(5846,	L["Dark Iron Taskmaster"],		BZ["Searing Gorge"], 44.4, 41.1)
 	AddMob(5861,	L["Twilight Fire Guard"],		BZ["Searing Gorge"], 25.5, 33.8)
 	AddMob(8637,	L["Dark Iron Watchman"],		BZ["Searing Gorge"], 69.3, 34.8)
-	AddMob(9026,	BB["Overmaster Pyron"],			BZ["Searing Gorge"], 26.2, 74.9)
+	AddMob(9026,	L["Overmaster Pyron"],			BZ["Searing Gorge"], 26.2, 74.9)
 
 	-- Shadowmoon Valley
 	AddMob(19740,	L["Wrathwalker"],			BZ["Shadowmoon Valley"], 25.5, 33.0)
@@ -189,7 +188,7 @@ function addon:InitMob(DB)
 	AddMob(28379,	L["Shattertusk Mammoth"],		BZ["Sholazar Basin"], 53.5, 24.4)
 
 	-- Silithus
-	AddMob(14454,	BB["The Windreaver"],			BZ["Silithus"], 27.0, 26.8)
+	AddMob(14454,	L["The Windreaver"],			BZ["Silithus"], 27.0, 26.8)
 
 	-- Silverpine Forest
 	AddMob(3530,	L["Pyrewood Tailor"],			BZ["Silverpine Forest"], 45.7, 71.0)
@@ -284,7 +283,7 @@ function addon:InitMob(DB)
 	AddMob(7438,	L["Winterfall Ursa"],			BZ["Winterspring"], 67.5, 36.3)
 	AddMob(7440,	L["Winterfall Den Watcher"],		BZ["Winterspring"], 68.0, 35.5)
 	AddMob(7524,	L["Anguished Highborne"],		BZ["Winterspring"], 50.7, 41.9)
-	AddMob(14457,	BB["Princess Tempestria"],		BZ["Winterspring"], 52.7, 41.9)
+	AddMob(14457,	L["Princess Tempestria"],		BZ["Winterspring"], 52.7, 41.9)
 
 	-- Zul'drak
 	AddMob(28851,	L["Enraged Mammoth"],			BZ["Zul'Drak"], 72.0, 41.1)
@@ -294,26 +293,26 @@ function addon:InitMob(DB)
 	-- Instances
 	-------------------------------------------------------------------------------
 	-- Ahn'kahet: The Old Kingdom
-	AddMob(29311,	BB["Herald Volazj"],			BZ["Ahn'kahet: The Old Kingdom"], 0, 0)
+	AddMob(29311,	L["Herald Volazj"],			BZ["Ahn'kahet: The Old Kingdom"], 0, 0)
 
 	-- Auchenai Crypts
 	AddMob(18497,	L["Auchenai Monk"],			BZ["Auchenai Crypts"], 0, 0)
 	AddMob(18521,	L["Raging Skeleton"],			BZ["Auchenai Crypts"], 0, 0)
 
 	-- Azjol-Nerub
-	AddMob(29120,	BB["Anub'arak"],			BZ["Azjol-Nerub"], 0, 0)
+	AddMob(29120,	L["Anub'arak"],			BZ["Azjol-Nerub"], 0, 0)
 
 	-- Blackrock Depths
 	AddMob(8897,	L["Doomforge Craftsman"],		BZ["Blackrock Depths"], 0, 0)
 	AddMob(8898,	L["Anvilrage Marshal"],			BZ["Blackrock Depths"], 0, 0)
 	AddMob(8903,	L["Anvilrage Captain"],			BZ["Blackrock Depths"], 0, 0)
 	AddMob(8920,	L["Weapon Technician"],			BZ["Blackrock Depths"], 0, 0)
-	AddMob(8983,	BB["Golem Lord Argelmach"],		BZ["Blackrock Depths"], 0, 0)
-	AddMob(9024,	BB["Pyromancer Loregrain"],		BZ["Blackrock Depths"], 0, 0)
-	AddMob(9025,	BB["Lord Roccor"],			BZ["Blackrock Depths"], 0, 0)
-	AddMob(9028,	BB["Grizzle"],				BZ["Blackrock Depths"], 0, 0)
-	AddMob(9499,	BB["Plugger Spazzring"],		BZ["Blackrock Depths"], 0, 0)
-	AddMob(9543,	BB["Ribbly Screwspigot"],		BZ["Blackrock Depths"], 0, 0)
+	AddMob(8983,	L["Golem Lord Argelmach"],		BZ["Blackrock Depths"], 0, 0)
+	AddMob(9024,	L["Pyromancer Loregrain"],		BZ["Blackrock Depths"], 0, 0)
+	AddMob(9025,	L["Lord Roccor"],			BZ["Blackrock Depths"], 0, 0)
+	AddMob(9028,	L["Grizzle"],				BZ["Blackrock Depths"], 0, 0)
+	AddMob(9499,	L["Plugger Spazzring"],		BZ["Blackrock Depths"], 0, 0)
+	AddMob(9543,	L["Ribbly Screwspigot"],		BZ["Blackrock Depths"], 0, 0)
 	AddMob(9554,	L["Hammered Patron"],			BZ["Blackrock Depths"], 0, 0)
 	AddMob(10043,	L["Ribbly's Crony"],			BZ["Blackrock Depths"], 0, 0)
 
@@ -323,110 +322,110 @@ function addon:InitMob(DB)
 	AddMob(9260,	L["Firebrand Legionnaire"],		BZ["Blackrock Spire"], 0, 0)
 	AddMob(9262,	L["Firebrand Invoker"],			BZ["Blackrock Spire"], 0, 0)
 	AddMob(9264,	L["Firebrand Pyromancer"],		BZ["Blackrock Spire"], 0, 0)
-	AddMob(9596,	BB["Bannok Grimaxe"],			BZ["Blackrock Spire"], 0, 0)
-	AddMob(9736,	BB["Quartermaster Zigris"],		BZ["Blackrock Spire"], 0, 0)
-	AddMob(10264,	BB["Solakar Flamewreath"],		BZ["Blackrock Spire"], 0, 0)
+	AddMob(9596,	L["Bannok Grimaxe"],			BZ["Blackrock Spire"], 0, 0)
+	AddMob(9736,	L["Quartermaster Zigris"],		BZ["Blackrock Spire"], 0, 0)
+	AddMob(10264,	L["Solakar Flamewreath"],		BZ["Blackrock Spire"], 0, 0)
 	AddMob(10317,	L["Blackhand Elite"],			BZ["Blackrock Spire"], 0, 0)
-	AddMob(10339,	BB["Gyth"],				BZ["Blackrock Spire"], 0, 0)
-	AddMob(10363,	BB["General Drakkisath"],		BZ["Blackrock Spire"], 0, 0)
-	AddMob(10899,	BB["Goraluk Anvilcrack"],		BZ["Blackrock Spire"], 0, 0)
+	AddMob(10339,	L["Gyth"],				BZ["Blackrock Spire"], 0, 0)
+	AddMob(10363,	L["General Drakkisath"],		BZ["Blackrock Spire"], 0, 0)
+	AddMob(10899,	L["Goraluk Anvilcrack"],		BZ["Blackrock Spire"], 0, 0)
 
 	-- Blackwing Lair
 	AddMob(14401,	L["Master Elemental Shaper Krixix"],	BZ["Blackwing Lair"], 0, 0)
 
 	-- Dire Maul
-	AddMob(11487,	BB["Magister Kalendris"],		BZ["Dire Maul"], 59.04, 48.82)
-	AddMob(14354,	BB["Pusillin"],				BZ["Dire Maul"], 59.04, 48.82)
+	AddMob(11487,	L["Magister Kalendris"],		BZ["Dire Maul"], 59.04, 48.82)
+	AddMob(14354,	L["Pusillin"],				BZ["Dire Maul"], 59.04, 48.82)
 
 	-- Drak'Tharon Keep
-	AddMob(26632,	BB["The Prophet Tharon'ja"],		BZ["Drak'Tharon Keep"], 0, 0)
+	AddMob(26632,	L["The Prophet Tharon'ja"],		BZ["Drak'Tharon Keep"], 0, 0)
 
 	-- Gnomeregan
-	AddMob(7800,	BB["Mekgineer Thermaplugg"],		BZ["Gnomeregan"], 0, 0)
+	AddMob(7800,	L["Mekgineer Thermaplugg"],		BZ["Gnomeregan"], 0, 0)
 
 	-- Halls of Lightning
-	AddMob(28923,	BB["Loken"],				BZ["Halls of Lightning"], 0, 0)
+	AddMob(28923,	L["Loken"],				BZ["Halls of Lightning"], 0, 0)
 
 	-- Halls of Stone
-	AddMob(27978,	BB["Sjonnir The Ironshaper"],		BZ["Halls of Stone"], 0, 0)
+	AddMob(27978,	L["Sjonnir The Ironshaper"],		BZ["Halls of Stone"], 0, 0)
 
 	-- Karazhan
 	AddMob(16406,	L["Phantom Attendant"],			BZ["Karazhan"], 0, 0)
 	AddMob(16408,	L["Phantom Valet"],			BZ["Karazhan"], 0, 0)
 	AddMob(16472,	L["Phantom Stagehand"],			BZ["Karazhan"], 0, 0)
-	AddMob(15687,	BB["Moroes"],				BZ["Karazhan"], 0, 0)
-	AddMob(15688,	BB["Terestian Illhoof"],		BZ["Karazhan"], 0, 0)
-	AddMob(16152,	BB["Attumen the Huntsman"],		BZ["Karazhan"], 0, 0)
-	AddMob(16524,	BB["Shade of Aran"],			BZ["Karazhan"], 0, 0)
+	AddMob(15687,	L["Moroes"],				BZ["Karazhan"], 0, 0)
+	AddMob(15688,	L["Terestian Illhoof"],		BZ["Karazhan"], 0, 0)
+	AddMob(16152,	L["Attumen the Huntsman"],		BZ["Karazhan"], 0, 0)
+	AddMob(16524,	L["Shade of Aran"],			BZ["Karazhan"], 0, 0)
 
 	-- Magister's Terrace
-	AddMob(24560,	BB["Priestess Delrissa"],		BZ["Magisters' Terrace"], 0, 0)
-	AddMob(24664,	BB["Kael'thas Sunstrider"],		BZ["Magisters' Terrace"], 0, 0)
+	AddMob(24560,	L["Priestess Delrissa"],		BZ["Magisters' Terrace"], 0, 0)
+	AddMob(24664,	L["Kael'thas Sunstrider"],		BZ["Magisters' Terrace"], 0, 0)
 
 	-- Mana-Tombs
 	AddMob(18314,	L["Nexus Stalker"],			BZ["Mana-Tombs"], 0, 0)
 	AddMob(18317,	L["Ethereal Priest"],			BZ["Mana-Tombs"], 0, 0)
-	AddMob(18344,	BB["Nexus-Prince Shaffar"],		BZ["Mana-Tombs"], 0, 0)
+	AddMob(18344,	L["Nexus-Prince Shaffar"],		BZ["Mana-Tombs"], 0, 0)
 
 	-- Oculus
-	AddMob(27656,	BB["Ley-Guardian Eregos"],		BZ["The Oculus"], 0, 0)
+	AddMob(27656,	L["Ley-Guardian Eregos"],		BZ["The Oculus"], 0, 0)
 
 	-- Old Hillsbrad Foothills
 	AddMob(17820,	L["Durnholde Rifleman"],		BZ["Old Hillsbrad Foothills"], 0, 0)
-	AddMob(17862,	BB["Captain Skarloc"],			BZ["Old Hillsbrad Foothills"], 0, 0)
-	AddMob(18096,	BB["Epoch Hunter"],			BZ["Old Hillsbrad Foothills"], 0, 0)
+	AddMob(17862,	L["Captain Skarloc"],			BZ["Old Hillsbrad Foothills"], 0, 0)
+	AddMob(18096,	L["Epoch Hunter"],			BZ["Old Hillsbrad Foothills"], 0, 0)
 	AddMob(28132,	L["Don Carlos"],			BZ["Old Hillsbrad Foothills"], 0, 0)
 
 	-- Ruins of Ahn'Qiraj
-	AddMob(15340,	BB["Moam"],				BZ["Ruins of Ahn'Qiraj"], 0, 0)
+	AddMob(15340,	L["Moam"],				BZ["Ruins of Ahn'Qiraj"], 0, 0)
 
 	-- Scholomance
-	AddMob(1853,	BB["Darkmaster Gandling"],		BZ["Scholomance"], 0, 0)
+	AddMob(1853,	L["Darkmaster Gandling"],		BZ["Scholomance"], 0, 0)
 	AddMob(10469,	L["Scholomance Adept"],			BZ["Scholomance"], 0, 0)
 	AddMob(10499,	L["Spectral Researcher"],		BZ["Scholomance"], 0, 0)
-	AddMob(10503,	BB["Jandice Barov"],			BZ["Scholomance"], 0, 0)
-	AddMob(10508,	BB["Ras Frostwhisper"],			BZ["Scholomance"], 0, 0)
+	AddMob(10503,	L["Jandice Barov"],			BZ["Scholomance"], 0, 0)
+	AddMob(10508,	L["Ras Frostwhisper"],			BZ["Scholomance"], 0, 0)
 
 	-- Sethekk Halls
 	AddMob(18320,	L["Time-Lost Shadowmage"],		BZ["Sethekk Halls"], 0, 0)
 	AddMob(18322,	L["Sethekk Ravenguard"],		BZ["Sethekk Halls"], 0, 0)
-	AddMob(18472,	BB["Darkweaver Syth"],			BZ["Sethekk Halls"], 0, 0)
+	AddMob(18472,	L["Darkweaver Syth"],			BZ["Sethekk Halls"], 0, 0)
 
 	-- Shadow Labyrinth
-	AddMob(18667,	BB["Blackheart the Inciter"],		BZ["Shadow Labyrinth"], 0, 0)
-	AddMob(18708,	BB["Murmur"],				BZ["Shadow Labyrinth"], 0, 0)
+	AddMob(18667,	L["Blackheart the Inciter"],		BZ["Shadow Labyrinth"], 0, 0)
+	AddMob(18708,	L["Murmur"],				BZ["Shadow Labyrinth"], 0, 0)
 	AddMob(18830,	L["Cabal Fanatic"],			BZ["Shadow Labyrinth"], 0, 0)
 
 	-- Stratholme
 	AddMob(10398,	L["Thuzadin Shadowcaster"],		BZ["Stratholme"], 0, 0)
 	AddMob(10422,	L["Crimson Sorcerer"],			BZ["Stratholme"], 0, 0)
 	AddMob(10426,	L["Crimson Inquisitor"],		BZ["Stratholme"], 0, 0)
-	AddMob(10813,	BB["Balnazzar"],			BZ["Stratholme"], 0, 0)
-	AddMob(10438,	BB["Maleki the Pallid"],		BZ["Stratholme"], 0, 0)
-	AddMob(10997,	BB["Cannon Master Willey"],		BZ["Stratholme"], 0, 0)
+	AddMob(10813,	L["Balnazzar"],			BZ["Stratholme"], 0, 0)
+	AddMob(10438,	L["Maleki the Pallid"],		BZ["Stratholme"], 0, 0)
+	AddMob(10997,	L["Cannon Master Willey"],		BZ["Stratholme"], 0, 0)
 
 	-- Temple of Ahn'Qiraj
-	AddMob(15263,	BB["The Prophet Skeram"],		BZ["Temple of Ahn'Qiraj"], 0, 0)
-	AddMob(15275,	BB["Emperor Vek'nilash"],		BZ["Temple of Ahn'Qiraj"], 0, 0)
-	AddMob(15276,	BB["Emperor Vek'lor"],			BZ["Temple of Ahn'Qiraj"], 0, 0)
+	AddMob(15263,	L["The Prophet Skeram"],		BZ["Temple of Ahn'Qiraj"], 0, 0)
+	AddMob(15275,	L["Emperor Vek'nilash"],		BZ["Temple of Ahn'Qiraj"], 0, 0)
+	AddMob(15276,	L["Emperor Vek'lor"],			BZ["Temple of Ahn'Qiraj"], 0, 0)
 
 	-- The Arcatraz
 	AddMob(20869,	L["Arcatraz Sentinel"],			BZ["The Arcatraz"], 0, 0)
 	AddMob(20880,	L["Eredar Deathbringer"],		BZ["The Arcatraz"], 0, 0)
 	AddMob(20898,	L["Gargantuan Abyssal"],		BZ["The Arcatraz"], 0, 0)
 	AddMob(20900,	L["Unchained Doombringer"],		BZ["The Arcatraz"], 0, 0)
-	AddMob(20885,	BB["Dalliah the Doomsayer"],		BZ["The Arcatraz"], 0, 0)
+	AddMob(20885,	L["Dalliah the Doomsayer"],		BZ["The Arcatraz"], 0, 0)
 
 	--The Black Morass
 	AddMob(21104,	L["Rift Keeper"],			BZ["The Black Morass"], 0, 0)
 	AddMob(17839,	L["Rift Lord"],				BZ["The Black Morass"], 0, 0)
-	AddMob(17879,	BB["Chrono Lord Deja"],			BZ["The Black Morass"], 0, 0)
+	AddMob(17879,	L["Chrono Lord Deja"],			BZ["The Black Morass"], 0, 0)
 
 	-- The Botanica
-	AddMob(17975,	BB["High Botanist Freywinn"],		BZ["The Botanica"], 0, 0)
+	AddMob(17975,	L["High Botanist Freywinn"],		BZ["The Botanica"], 0, 0)
 	AddMob(18422,	L["Sunseeker Botanist"],		BZ["The Botanica"], 0, 0)
-	AddMob(17977,	BB["Warp Splinter"],			BZ["The Botanica"], 0, 0)
-	AddMob(17978,	BB["Thorngrin the Tender"],		BZ["The Botanica"], 0, 0)
+	AddMob(17977,	L["Warp Splinter"],			BZ["The Botanica"], 0, 0)
+	AddMob(17978,	L["Thorngrin the Tender"],		BZ["The Botanica"], 0, 0)
 
 	-- The Deadmines
 	AddMob(657,	L["Defias Pirate"],			BZ["The Deadmines"], 0, 0)
@@ -434,36 +433,36 @@ function addon:InitMob(DB)
 
 	-- The Mechanar
 	AddMob(19168,	L["Sunseeker Astromage"],		BZ["The Mechanar"], 0, 0)
-	AddMob(19219,	BB["Mechano-Lord Capacitus"],		BZ["The Mechanar"], 0, 0)
-	AddMob(19220,	BB["Pathaleon the Calculator"],		BZ["The Mechanar"], 0, 0)
-	AddMob(19221,	BB["Nethermancer Sepethrea"],		BZ["The Mechanar"], 0, 0)
+	AddMob(19219,	L["Mechano-Lord Capacitus"],		BZ["The Mechanar"], 0, 0)
+	AddMob(19220,	L["Pathaleon the Calculator"],		BZ["The Mechanar"], 0, 0)
+	AddMob(19221,	L["Nethermancer Sepethrea"],		BZ["The Mechanar"], 0, 0)
 
 	-- The Nexus
-	AddMob(26723,	BB["Keristrasza"],			BZ["The Nexus"], 0, 0)
+	AddMob(26723,	L["Keristrasza"],			BZ["The Nexus"], 0, 0)
 
 	-- The Shattered Halls
 	AddMob(17465,	L["Shattered Hand Centurion"],		BZ["The Shattered Halls"], 0, 0)
-	AddMob(16807,	BB["Grand Warlock Nethekurse"],		BZ["The Shattered Halls"], 0, 0)
+	AddMob(16807,	L["Grand Warlock Nethekurse"],		BZ["The Shattered Halls"], 0, 0)
 
 	-- The Slave Pens
-	AddMob(17941,	BB["Mennu the Betrayer"],		BZ["The Slave Pens"], 0, 0)
+	AddMob(17941,	L["Mennu the Betrayer"],		BZ["The Slave Pens"], 0, 0)
 
 	-- The Steamvault
 	AddMob(17722,	L["Coilfang Sorceress"],		BZ["The Steamvault"], 0, 0)
 	AddMob(17803,	L["Coilfang Oracle"],			BZ["The Steamvault"], 0, 0)
-	AddMob(17796,	BB["Mekgineer Steamrigger"],		BZ["The Steamvault"], 0, 0)
-	AddMob(17797,	BB["Hydromancer Thespia"],		BZ["The Steamvault"], 0, 0)
-	AddMob(17798,	BB["Warlord Kalithresh"],		BZ["The Steamvault"], 0, 0)
+	AddMob(17796,	L["Mekgineer Steamrigger"],		BZ["The Steamvault"], 0, 0)
+	AddMob(17797,	L["Hydromancer Thespia"],		BZ["The Steamvault"], 0, 0)
+	AddMob(17798,	L["Warlord Kalithresh"],		BZ["The Steamvault"], 0, 0)
 
 	-- The Temple of Atal'Hakkar
 	AddMob(5226,	L["Murk Worm"],				BZ["The Temple of Atal'Hakkar"], 0, 0)
 
 	-- The Violet Hold
-	AddMob(31134,	BB["Cyanigosa"],			BZ["The Violet Hold"], 0, 0)
+	AddMob(31134,	L["Cyanigosa"],			BZ["The Violet Hold"], 0, 0)
 
 	-- Utgarde Keep
-	AddMob(23954,	BB["Ingvar the Plunderer"],		BZ["Utgarde Keep"], 0, 0)
+	AddMob(23954,	L["Ingvar the Plunderer"],		BZ["Utgarde Keep"], 0, 0)
 
 	-- Utgarde Pinnacle
-	AddMob(26861,	BB["King Ymiron"],			BZ["Utgarde Pinnacle"], 0, 0)
+	AddMob(26861,	L["King Ymiron"],			BZ["Utgarde Pinnacle"], 0, 0)
 end

@@ -1,0 +1,27 @@
+{
+    "Lua.diagnostics.globals": [
+        "StaticPopupDialogs",
+        "UISpecialFrames",
+        "ChatFontNormal",
+        "GameTooltip",
+        "InterfaceOptionsFrame_OpenToCategory",
+        "GameTooltip_SetDefaultAnchor",
+        "UIDropDownMenu_Initialize",
+        "UIDropDownMenu_SetSelectedID",
+        "BOOKTYPE_SPELL",
+        "GetCursorPosition",
+        "ChatFontSmall",
+        "WorldFrame",
+        "GameFontHighlightSmall",
+        "GameFontNormalSmall",
+        "SELECTED_CHAT_FRAME",
+        "DEFAULT_CHAT_FRAME",
+        "ACCEPT",
+        "CANCEL",
+        "StaticPopup_Show",
+        "InterfaceOptions_AddCategory",
+        "NORMAL_FONT_COLOR",
+        "GameFontHighlight",
+        "GameFontHighlightLarge"
+    ]
+}

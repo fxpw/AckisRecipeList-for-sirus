@@ -22,6 +22,7 @@ This source code is released under All Rights Reserved.
 -------------------------------------------------------------------------------
 local _G = getfenv(0)
 
+
 local tostring = _G.tostring
 local tonumber = _G.tonumber
 

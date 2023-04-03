@@ -546,7 +546,7 @@ elseif GAME_LOCALE == "ruRU" then
 	["Booty Bay"] = "Пиратская бухта",
 	["Brood of Nozdormu"] = "Род Ноздорму",
 	["Cenarion Circle"] = "Круг Кенария",
-	["Cenarion Expedition"] = "Экспедиция Ценариона",
+	["Cenarion Expedition"] = "Кенарийская экспедиция",
 	["Darkmoon Faire"] = "Ярмарка Новолуния",
 	["Darkspear Trolls"] = "Тролли Черного Копья",
 	Darnassus = "Дарнас",

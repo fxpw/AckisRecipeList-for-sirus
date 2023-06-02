@@ -826,9 +826,9 @@ do
 			local loc = addon.db.profile.scanbuttonlocation
 
 			if loc == "TR" then
-				scan_button:SetPoint("RIGHT", MaximizeMinimizeFrame, "LEFT",5,0.5)
+				scan_button:SetPoint("RIGHT", MaximizeMinimizeFrame, "LEFT",5,22)
 			elseif loc == "TL" then
-				scan_button:SetPoint("LEFT", TradeSkillFramePortrait, "RIGHT",2,12)
+				scan_button:SetPoint("LEFT", TradeSkillFramePortrait, "RIGHT",2,33)
 			elseif loc == "BR" then
 				scan_button:SetPoint("TOP", TradeSkillCancelButton, "BOTTOM",0,-5)
 			elseif loc == "BL" then
